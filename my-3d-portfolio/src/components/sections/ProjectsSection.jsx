@@ -26,10 +26,6 @@ const ProjectsSection = () => {
                   <span key={t} className="tech-tag">{t}</span>
                 ))}
               </div>
-              <div className="project-links">
-                <a href="#" className="link-btn"><FaGithub /> Code</a>
-                <a href="#" className="link-btn"><FaExternalLinkAlt /> Live</a>
-              </div>
             </div>
           </motion.div>
         ))}
